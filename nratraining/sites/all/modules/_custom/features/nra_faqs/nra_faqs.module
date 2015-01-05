@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the NRA FAQs feature.
+ */
+
+include_once 'nra_faqs.features.inc';

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the NRA Media Gallery feature.
+ */
+
+include_once 'nra_media_gallery.features.inc';

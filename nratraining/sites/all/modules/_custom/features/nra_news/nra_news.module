@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the NRA News feature.
+ */
+
+include_once 'nra_news.features.inc';

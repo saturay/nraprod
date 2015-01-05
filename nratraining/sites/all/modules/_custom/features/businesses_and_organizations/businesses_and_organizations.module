@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Businesses and Organizations feature.
+ */
+
+include_once 'businesses_and_organizations.features.inc';

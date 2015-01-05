@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the NRA Online Services feature.
+ */
+
+include_once 'nra_online_services.features.inc';

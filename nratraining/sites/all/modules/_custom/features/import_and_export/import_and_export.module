@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the import and Export feature.
+ */
+
+include_once 'import_and_export.features.inc';

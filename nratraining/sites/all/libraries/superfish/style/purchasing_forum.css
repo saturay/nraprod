@@ -1,0 +1,114 @@
+.sf-menu.sf-style-purchasing_forum {
+  float: left;
+  margin-bottom: 1em;
+  padding: 0;
+  width: 100%;
+  background-color: #191919;
+}
+.sf-menu.sf-style-purchasing_forum.sf-navbar {
+  width: 100%;
+}
+.sf-menu.sf-style-purchasing_forum ul {
+  padding-left: 0;
+}
+.sf-menu.sf-style-purchasing_forum a {
+  border: 1px outset #191919;
+  color: #ffffff;
+  padding: 0.75em 1em;
+  text-decoration: none;
+}
+.sf-menu.sf-style-purchasing_forum a.sf-with-ul {
+  padding-right: 0;
+  color: #000000;
+}
+.sf-menu.sf-style-purchasing_forum.rtl a.sf-with-ul {
+  padding-left: 2.25em;
+  padding-right: 1em;
+}
+.sf-menu.sf-style-purchasing_forum.sf-navbar a {
+  border: 0;
+}
+.sf-menu.sf-style-purchasing_forum span.sf-description {
+  color: #13a;
+  display: block;
+  font-size: 0.8em;
+  line-height: 1.5em;
+  margin: 5px 0 0 5px;
+  padding: 0;
+}
+.sf-menu.sf-style-purchasing_forum li,
+.sf-menu.sf-style-purchasing_forum.sf-navbar {
+  background: #191919;
+  text-align: left;
+  padding: 0 10px 0 10px;
+  color: #000000;
+}
+.sf-menu.sf-style-purchasing_forum li li {
+  background: #555544;
+  margin:0;
+}
+.sf-menu.sf-style-purchasing_forum li li li {
+  background: #DBDBDB;
+}
+.sf-menu.sf-style-purchasing_forum li:hover,
+.sf-menu.sf-style-purchasing_forum li.sfHover,
+.sf-menu.sf-style-purchasing_forum li.active a,
+.sf-menu.sf-style-purchasing_forum a:focus,
+.sf-menu.sf-style-purchasing_forum a:hover,
+.sf-menu.sf-style-purchasing_forum a:active,
+.sf-menu.sf-style-purchasing_forum.sf-navbar li li {
+  background: #DBDBDB;
+  color: #000000;
+}
+.sf-menu.sf-style-purchasing_forum.sf-navbar li ul {
+  background-color: #3270c5;
+}
+.sf-menu.sf-style-purchasing_forum.sf-navbar li ul li ul {
+  background-color: transparent;
+}
+.sf-menu.sf-style-purchasing_forum ul.sf-megamenu li.sf-megamenu-wrapper ol,
+.sf-menu.sf-style-purchasing_forum ul.sf-megamenu li.sf-megamenu-wrapper ol li {
+  margin: 0;
+  padding: 0;
+}
+.sf-menu.sf-style-purchasing_forum ul.sf-megamenu li.sf-megamenu-wrapper a.menuparent {
+  font-weight: bold;
+}
+.sf-menu.sf-style-purchasing_forum ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column {
+  display: inline;
+  float: left;
+  width: 12em;
+}
+.sf-menu.sf-style-purchasing_forum.rtl ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column {
+  float: right;
+}
+.sf-menu.sf-style-purchasing_forum li.sf-parent-children-1 ul.sf-megamenu {
+  width: 12em;
+}
+.sf-menu.sf-style-purchasing_forum li.sf-parent-children-2 ul.sf-megamenu {
+  width: 24em;
+}
+.sf-menu.sf-style-purchasing_forum li.sf-parent-children-3 ul.sf-megamenu {
+  width: 36em;
+}
+.sf-menu.sf-style-purchasing_forum li.sf-parent-children-4 ul.sf-megamenu {
+  width: 48em;
+}
+.sf-menu.sf-style-purchasing_forum li.sf-parent-children-5 ul.sf-megamenu {
+  width: 60em;
+}
+.sf-menu.sf-style-purchasing_forum li.sf-parent-children-6 ul.sf-megamenu {
+  width: 72em;
+}
+.sf-menu.sf-style-purchasing_forum li.sf-parent-children-7 ul.sf-megamenu {
+  width: 84em;
+}
+.sf-menu.sf-style-purchasing_forum li.sf-parent-children-8 ul.sf-megamenu {
+  width: 96em;
+}
+.sf-menu.sf-style-purchasing_forum li.sf-parent-children-9 ul.sf-megamenu {
+  width: 108em;
+}
+.sf-menu.sf-style-purchasing_forum li.sf-parent-children-10 ul.sf-megamenu {
+  width: 120em;
+}

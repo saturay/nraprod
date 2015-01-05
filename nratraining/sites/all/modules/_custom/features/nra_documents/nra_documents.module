@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the NRA Documents feature.
+ */
+
+include_once 'nra_documents.features.inc';

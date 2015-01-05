@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the NRA Basic Page feature.
+ */
+
+include_once 'nra_basic_page.features.inc';

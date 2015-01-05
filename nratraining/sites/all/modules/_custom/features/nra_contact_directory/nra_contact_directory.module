@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the NRA Contact Directory  feature.
+ */
+
+include_once 'nra_contact_directory.features.inc';

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Individuals and Partnerships feature.
+ */
+
+include_once 'individuals_and_partnerships.features.inc';

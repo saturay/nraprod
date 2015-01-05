@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the NRA Frontpage Quicktabs feature.
+ */
+
+include_once 'nra_frontpage_quicktabs.features.inc';

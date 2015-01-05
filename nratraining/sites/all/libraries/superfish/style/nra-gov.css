@@ -1,0 +1,141 @@
+.sf-menu.sf-style-nra-gov {
+  float: left;
+  margin-bottom: 1em;
+  padding: 0;
+}
+.sf-menu.sf-style-nra-gov.sf-navbar {
+  width: 100%;
+}
+.sf-menu.sf-style-nra-gov ul {
+  padding-left: 0;
+}
+.sf-menu.sf-style-nra-gov a,
+.sf-menu.sf-style-nra-gov span.nolink {
+  border: 1px outset #003973;
+  color: #ffffff;
+  padding: 0.75em 1em;
+}
+.sf-menu.sf-style-nra-gov a.sf-with-ul,
+.sf-menu.sf-style-nra-gov span.nolink.sf-with-ul {
+  padding-right: 2.25em;
+}
+.sf-menu.sf-style-nra-gov.rtl a.sf-with-ul,
+.sf-menu.sf-style-nra-gov.rtl span.nolink.sf-with-ul {
+  padding-left: 2.25em;
+  padding-right: 1em;
+}
+.sf-menu.sf-style-nra-gov.sf-navbar a,
+.sf-menu.sf-style-nra-gov.sf-navbar span.nolink {
+  border: 0;
+}
+.sf-menu.sf-style-nra-gov span.sf-description {
+  color: #ffffff;
+  display: block;
+  font-size: 0.833em;
+  line-height: 1.5;
+  margin: 5px 0 0 5px;
+  padding: 0;
+}
+.sf-menu.sf-style-nra-gov.rtl span.sf-description {
+  margin: 5px 5px 0 0;
+}
+.sf-menu.sf-style-nra-gov li,
+.sf-menu.sf-style-nra-gov.sf-navbar {
+  background: #095cb1;
+}
+.sf-menu.sf-style-nra-gov li li {
+  background: #0151a4;
+}
+.sf-menu.sf-style-nra-gov li li li {
+  background: #00478f;
+}
+.sf-menu.sf-style-nra-gov li:hover,
+.sf-menu.sf-style-nra-gov li.sfHover,
+.sf-menu.sf-style-nra-gov a:focus,
+.sf-menu.sf-style-nra-gov a:hover,
+.sf-menu.sf-style-nra-gov a:active,
+.sf-menu.sf-style-nra-gov span.nolink:hover,
+.sf-menu.sf-style-nra-gov.sf-navbar li li {
+  background: #3270c5;
+  color: #ffea00;
+}
+.sf-menu.sf-style-nra-gov.sf-navbar li ul {
+  background-color: #3270c5;
+}
+.sf-menu.sf-style-nra-gov.sf-navbar li ul li ul {
+  background-color: transparent;
+}
+div.sf-accordion-toggle.sf-style-nra-gov a {
+  background: #095cb1;
+  border: 1px outset #003973;
+  color: #ffffff;
+  padding: 1em;
+}
+div.sf-accordion-toggle.sf-style-nra-gov a.sf-expanded,
+.sf-menu.sf-style-nra-gov.sf-accordion li.sf-expanded {
+  background-color: #3270c5;
+}
+div.sf-accordion-toggle.sf-style-nra-gov a.sf-expanded,
+.sf-menu.sf-style-nra-gov.sf-accordion li.sf-expanded > a,
+.sf-menu.sf-style-nra-gov.sf-accordion li.sf-expanded > span.nolink {
+  font-weight: bold;
+}
+.sf-menu.sf-style-nra-gov.sf-accordion li a.sf-accordion-button {
+  font-weight: bold;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 499;
+}
+.sf-menu.sf-style-nra-gov.sf-accordion li li a,
+.sf-menu.sf-style-nra-gov.sf-accordion li li span.nolink {
+  padding-left: 2em;
+}
+.sf-menu.sf-style-nra-gov.sf-accordion li li li a,
+.sf-menu.sf-style-nra-gov.sf-accordion li li li span.nolink {
+  padding-left: 3em;
+}
+.sf-menu.sf-style-nra-gov.sf-accordion li li li li a,
+.sf-menu.sf-style-nra-gov.sf-accordion li li li li span.nolink {
+  padding-left: 4em;
+}
+.sf-menu.sf-style-nra-gov.sf-accordion li li li li a,
+.sf-menu.sf-style-nra-gov.sf-accordion li li li li span.nolink {
+  padding-left: 5em;
+}
+.sf-menu.sf-style-nra-gov.rtl.sf-accordion li li a,
+.sf-menu.sf-style-nra-gov.rtl.sf-accordion li li span.nolink {
+  padding-left: auto;
+  padding-right: 2em;
+}
+.sf-menu.sf-style-nra-gov.rtl.sf-accordion li li li a,
+.sf-menu.sf-style-nra-gov.rtl.sf-accordion li li li span.nolink {
+  padding-left: auto;
+  padding-right: 3em;
+}
+.sf-menu.sf-style-nra-gov.rtl.sf-accordion li li li li a,
+.sf-menu.sf-style-nra-gov.rtl.sf-accordion li li li li span.nolink {
+  padding-left: auto;
+  padding-right: 4em;
+}
+.sf-menu.sf-style-nra-gov.rtl.sf-accordion li li li li li a,
+.sf-menu.sf-style-nra-gov.rtl.sf-accordion li li li li li span.nolink {
+  padding-left: auto;
+  padding-right: 5em;
+}
+.sf-menu.sf-style-nra-gov ul.sf-megamenu li.sf-megamenu-wrapper ol,
+.sf-menu.sf-style-nra-gov ul.sf-megamenu li.sf-megamenu-wrapper ol li {
+  margin: 0;
+  padding: 0;
+}
+.sf-menu.sf-style-nra-gov ul.sf-megamenu li.sf-megamenu-wrapper a.menuparent,
+.sf-menu.sf-style-nra-gov ul.sf-megamenu li.sf-megamenu-wrapper span.nolink.menuparent {
+  font-weight: bold;
+}
+.sf-menu.sf-style-nra-gov ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column {
+  display: inline;
+  float: left;
+}
+.sf-menu.sf-style-nra-gov.rtl ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column {
+  float: right;
+}

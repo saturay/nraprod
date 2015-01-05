@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the NRA Base Config feature.
+ */
+
+include_once 'nra_base_config.features.inc';

@@ -1,0 +1,25 @@
+.quicktabs-hide {
+  display: none;
+}
+
+ul.quicktabs-tabs {
+  margin-top: 0;
+}
+ul.quicktabs-tabs li {
+  background: none;
+  list-style-type: none;
+  padding: 2px;
+  white-space: nowrap;
+}
+ul.quicktabs-tabs li a:focus {
+  outline: none;
+}
+
+.vertical-tabs ul.vertical-tabs-list li.active {
+  background-color: white;
+  border-right-width: 0;
+}
+
+.vertical-tabs-panes {
+  margin: 20px;
+}

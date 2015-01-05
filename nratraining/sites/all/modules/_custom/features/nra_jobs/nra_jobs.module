@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the NRA Jobs feature.
+ */
+
+include_once 'nra_jobs.features.inc';

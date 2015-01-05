@@ -1,0 +1,14 @@
+name = NRA Frontpage Quicktabs
+description = Frontpage Quicktabs
+core = 7.x
+package = NRA
+version = 7.x-1.0-alpha
+project = nra_frontpage_quicktabs
+dependencies[] = ctools
+dependencies[] = quicktabs
+features[ctools][] = quicktabs:quicktabs:1
+features[features_api][] = api:2
+features[quicktabs][] = frontpage_audience
+features[quicktabs][] = frontpage_updates
+mtime = 1418542497
+project path = sites/all/modules/_custom/features

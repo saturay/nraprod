@@ -1,0 +1,268 @@
+.sf-menu.sf-style-its-inside {
+margin:0 auto;
+width:100%;
+padding: 0;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+color: #196DB3;
+/* #f1f1f1 */
+  /*font-size-adjust: .52; /*--average of the font-stack's aspect values--*/
+}
+
+/* hide main menu heading */
+#block-superfish-1 h2,
+#block-superfish-2 h2 {
+  display: none;
+}
+
+.sf-menu.sf-style-its-inside.sf-navbar {
+  width: 100%;
+}
+
+.sf-menu.sf-style-its-inside ul {
+  padding-left: 0;
+  width:100%;
+}
+
+.sf-menu.sf-style-its-inside .sf-depth-1 li{
+  width:33%;
+}
+.sf-menu.sf-style-its-inside .sf-depth-1 a,
+.sf-menu.sf-style-its-inside .sf-depth-1 a:visited,
+.sf-menu.sf-style-its-inside .sf-depth-1 .nolink {
+border-right: 1px solid #003466;
+color: #196DB3;
+padding: .9em .75em;
+font-size: 1.2em;
+color: #ffffff;
+text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+background-color: #1c95d0;
+background-image: -moz-linear-gradient(top, #2daddc, #0271bf);
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#2daddc), to(#0271bf));
+background-image: -webkit-linear-gradient(top, #2daddc, #0271bf);
+background-image: -o-linear-gradient(top, #2daddc, #0271bf);
+background-image: linear-gradient(to bottom, #2daddc, #0271bf);
+background-repeat: repeat-x;
+border-color: #0271bf #0271bf #014473;
+border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2daddc', endColorstr='#ff0271bf', GradientType=0);
+filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.sf-menu.sf-style-its-inside .sf-depth-1 a:hover,
+.sf-menu.sf-style-its-inside .sfHover a.sf-depth-1 {
+  background-color: #fefefe;
+  color: #333;
+  -webkit-box-shadow: 0px 0px 4px 1px rgba(56, 67, 88, 0.5);
+  box-shadow: 0px 0px 4px 1px rgba(56, 67, 88, 0.5);
+}
+
+.sf-menu.sf-style-its-inside .last a {
+  border: none;
+  /* so last menu item has no border */
+}
+
+a > .sf-sub-indicator {
+  top: 0.65em;
+  background: url("../images/arrows-blue.png") no-repeat 0 -102px;
+}
+
+a:focus > .sf-sub-indicator,
+a:hover > .sf-sub-indicator,
+a:active > .sf-sub-indicator,
+li:hover > a > .sf-sub-indicator,
+li.sfHover > a > .sf-sub-indicator {
+  top: 0.95em;
+  background: url("../images/arrows-ffffff.png") no-repeat -10px -102px;
+}
+
+.sf-menu.sf-style-its-inside li li a,
+.sf-menu.sf-style-its-inside li .nolink {
+  font-size: 0.9em;
+  padding: 8px 0 8px 8px;
+  border: none;
+}
+
+.sf-menu.sf-style-its-inside ul {
+  border-top: 3px solid #003466;
+  margin-top: -1px;
+  -webkit-box-shadow: 0px 0px 4px 1px rgba(56, 67, 88, 0.5);
+  box-shadow: 0px 0px 4px 1px rgba(56, 67, 88, 0.5);
+}
+
+.sf-menu li:hover > ul,
+.sf-menu li.sfHover > ul {
+  top: 2em;
+  /* the bars next to the nav items make it look like its not in the right spot, my moving it to the left one px it makes it look cleaner */
+}
+
+.sf-menu.sf-style-its-inside a.sf-with-ul {
+  padding-right: 2.25em;
+}
+
+.sf-menu.sf-style-its-inside.rtl a.sf-with-ul {
+  padding-left: 2.25em;
+  padding-right: 1em;
+}
+
+.sf-menu.sf-style-its-inside.sf-navbar a {
+  border: 0;
+}
+
+.sf-menu.sf-style-its-inside span.sf-description {
+  color: #196db3;
+  display: block;
+  font-size: 0.8em;
+  line-height: 1.5em;
+  margin: 5px 0 0 5px;
+  padding: 0;
+}
+
+.sf-menu.sf-style-its-inside a:active {
+  color: #f1f1f1;
+}
+
+.sf-menu.sf-horizontal.sf-shadow ul,
+.sf-menu.sf-vertical.sf-shadow ul,
+.sf-menu.sf-navbar.sf-shadow ul ul {
+  background: #fff;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  left: -1px;
+}
+
+/* The following negative left settings are to pull the dropdowns for the mega menu's to the left so that they don't flow off of the screen at lower resolutions, you're welcome for this comment, my friend. XOXO Eric*/
+.sf-menu.sf-horizontal.sf-shadow .sf-item-3 ul {
+  left: -260px;
+}
+
+.sf-menu.sf-horizontal.sf-shadow .sf-item-4 ul {
+  left: -320px;
+}
+
+.sf-menu.sf-style-its-inside li,
+.sf-menu.sf-style-its-inside li li,
+.sf-menu.sf-style-its-inside li li li,
+.sf-menu.sf-style-its-inside.sf-navbar {
+  margin: 0;
+  /* background: #333333;*/
+}
+
+.sf-menu.sf-style-its-inside li:hover,
+.sf-menu.sf-style-its-inside li.sfHover,
+.sf-menu.sf-style-its-inside li.active a,
+.sf-menu.sf-style-its-inside a:focus,
+.sf-menu.sf-style-its-inside a:hover,
+.sf-menu.sf-style-its-inside a:active,
+.sf-menu.sf-style-its-inside.sf-navbar li li {
+  background: #ffffff;
+  color: #086B99;
+  text-decoration: none;
+}
+
+.sf-menu.sf-style-its-inside .sf-depth-2 a:hover {
+  background-color: #fff;
+  color: #196DB3;
+  text-decoration: underline;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.sf-menu.sf-style-its-inside.sf-navbar li ul {
+  background-color: #333;
+}
+
+.sf-menu.sf-style-its-inside.sf-navbar li ul li ul {
+  background-color: transparent;
+}
+
+.sf-menu.sf-style-its-inside ul.sf-megamenu li.sf-megamenu-wrapper ol,
+.sf-menu.sf-style-its-inside ul.sf-megamenu li.sf-megamenu-wrapper ol li {
+  margin: 0;
+  padding: 0;
+}
+
+.sf-menu.sf-style-its-inside ul.sf-megamenu li.sf-megamenu-wrapper ol li ol {
+  /* Let's indent the sub-items in the navigation though... */
+  padding-left: 1em;
+}
+
+.sf-menu.sf-style-its-inside ul.sf-megamenu li.sf-megamenu-wrapper a.menuparent,
+.sf-menu.sf-style-its-inside li .sf-depth-2.sf-no-children a,
+.sf-menu.sf-style-its-inside li .nolink {
+  /* Bold the menu parents, bold non-parent-linkers, bold non-parent-non-linkers*/
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.sf-menu.sf-style-its-inside .nolink {
+  display: block;
+}
+
+.sf-menu.sf-style-its-inside.rtl ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column {
+  float: right;
+}
+
+/*one column of subnav*/
+.sf-parent-children-1 ul.sf-megamenu {
+  width: 12em;
+}
+
+/*Two columns of subnav*/
+.sf-parent-children-2 ul.sf-megamenu {
+  width: 52em;
+}
+
+.sf-menu li.sf-depth-2 {
+  display: inline;
+  float: left;
+  width: 50%;
+}
+
+/*three columns of subnav*/
+.sf-parent-children-3 ul.sf-megamenu {
+  width: 36em;
+}
+
+/*four columns of subnav*/
+.sf-parent-children-4 ul.sf-megamenu {
+  width: 48em;
+}
+
+/*five columns of subnav*/
+.sf-parent-children-5 ul.sf-megamenu {
+  width: 60em;
+}
+
+/*six columns of subnav*/
+.sf-parent-children-6 ul.sf-megamenu {
+  width: 66em;
+}
+
+.sf-menu .sf-parent-children-6 li.sf-depth-2 {
+  width: 33.333%;
+}
+
+/*seven columns of subnav*/
+.sf-parent-children-7 ul.sf-megamenu {
+  width: 84em;
+}
+
+/*you get it, right*/
+.sf-parent-children-8 ul.sf-megamenu {
+  width: 96em;
+}
+
+/*do i really need to keep going*/
+.sf-parent-children-9 ul.sf-megamenu {
+  width: 108em;
+}
+
+/*if you use 10, thats probably too many to even fit on a screen*/
+.sf-parent-children-10 ul.sf-megamenu {
+  width: 120em;
+}
+
+.zone-menu-wrapper {
+  z-index: 999;
+}

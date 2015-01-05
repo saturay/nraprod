@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the NRA Event feature.
+ */
+
+include_once 'nra_event.features.inc';
